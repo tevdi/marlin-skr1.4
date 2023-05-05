@@ -1,0 +1,57 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/jordi/apps/Dropbox/Download/3D/Artillery X1 Mods/2. SKR 1.4 + BTT TFT 35 V3.0/Marlin-2.0.x - 79.154.75.141 (Original, Created Using Marlin Build for Artillery Sidewinder X1)/Marlin",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/jordi/apps/Dropbox/Download/3D/Artillery X1 Mods/2. SKR 1.4 + BTT TFT 35 V3.0/Marlin-2.0.x - 79.154.75.141 (Original, Created Using Marlin Build for Artillery Sidewinder X1)/Marlin",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/jordi/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60106",
+                "ARDUINO_AVR_MEGA2560",
+                "__MARLIN_FIRMWARE__",
+                "NDEBUG",
+                "BOARD_F_CPU=16000000L",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/jordi/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
